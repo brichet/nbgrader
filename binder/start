@@ -4,4 +4,4 @@ set -e
 
 echo "$@"
 
-exec jupyter lab "${@:4}" --LabApp.tree_url=example_course
+exec jupyter lab "${@:4}"
