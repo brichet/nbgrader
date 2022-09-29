@@ -11,5 +11,5 @@ jobs:
     steps:
       - uses: jupyterlab/maintainer-tools/.github/actions/binder-link@v1
         with:
-          url_path: tree/example_course
+          url_path: lab/tree/example_course
           github_token: ${{ secrets.github_token }}
