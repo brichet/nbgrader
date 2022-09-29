@@ -2,7 +2,7 @@
 
 pip install .
 
-rm -rf ./*
+find . ! -path ./binder -delete
 
 nbgrader quickstart example_course
 
